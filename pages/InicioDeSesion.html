@@ -1,0 +1,101 @@
+<!-- import { Link } from "react-router-dom";
+import Google from "../media/LogoGoogle.png"; -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css"> />
+    <link rel="stylesheet" href="../styles/stylesPersonajesBuenos.css" />
+    <link rel="stylesheet" href="../styles/stylesPersonajesMalos.css" />
+    <link rel="icon" href="../media/ico.ico" />
+  <title>BIT_Jesus</title>
+</head>
+<body>
+ <div class="FondoInicioSesion">
+        <div class="centrarinicio">
+          <h2 class="TituloSesion">Inicia Sesión En Tu Cuenta</h2>
+          <form
+            action="EnviadoporPOST.com"
+            method="POST"
+            class="FormDeSesion"
+          >
+            <div class="ClasepasswordEmail">
+              <div>
+                <input
+                  class="ClaseEmail"
+                  type="email"
+                  placeholder="Correo Electronico"
+                  name="email"
+                />
+              </div>
+              <div>
+                <input
+                  class="ClasePassword"
+                  type="password"
+                  name="password"
+                  placeholder="Contraseña"
+                />
+              </div>
+            </div>
+            <div class="claseRecuerdameGeneral">
+              <div class="claseRecuerdame">
+                <input type="checkbox" name="remember-me" />
+                <label class="claseLabelRecuerdame" htmlFor="remember-me">
+                  <select name="transporte">
+                    <option>Recordar mi inicio de sesion</option>
+
+                    <option>No Recordar mi inicio de sesion</option>
+                  </select>
+                </label>
+              </div>
+              <div class="text-sm">
+                <a href="../pages/index.html" class="font-medium text-indigo-600 ">
+                  ¿Olvidaste tu contraseña?
+                </a>
+              </div>
+            </div>
+            <div class="mar-componentes">
+              <button
+                type="submit"
+                class="button relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md "
+              >
+                <span class="absolute left-0 inset-y-0 flex items-center pl-3"></span>
+                Inicia sesión
+              </button>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>¿No tienes cuenta?</span>
+              <Link to="/">
+                <span class="font-medium text-indigo-600 text-indigo-500 flex items-center justify-between">
+                  Regístrate
+                </span>
+              </Link>
+            </div>
+          </form>
+          <div class="flex items-center justify-center">
+            <span class="mx-4">------------------------</span>
+            <h2 class="my-4 text-center text-sm font-extrabold text-gray-900">
+              O
+            </h2>
+            <span class="mx-4">------------------------</span>
+          </div>
+          <div class="max-w-md w-full">
+            <div>
+              <button
+                type="submit"
+                class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-gray-700 bg-gray-200 bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              >
+                <div class="flex items-center justify-start">
+                  <img src="../media/LogoGoogle.png" alt="Logo Google" class="h-6 w-6" />
+                  <a href="../pages/index.html"><span class="mx-4">Continúa con Google o Ir a la Pág Principal</span></a>
+                  
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> 
+</body>
+</html>
