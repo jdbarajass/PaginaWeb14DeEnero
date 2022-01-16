@@ -31,8 +31,9 @@ body{
 
 .titulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 32px;
+  font-size: 22px;
   padding-left: 50px;
+  margin-bottom: 10px;
 }
 .Datos {
   margin-right: 70px;
@@ -48,14 +49,16 @@ body{
 }
 
 .bordeimagen {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
   box-sizing: none;
-  margin: 0px;
   height: 180px;
   width: 180px;
   display: flex;
   justify-content: center;
+  margin-left: 15px;
+}
+.radioimagen{
+  border-radius: 55px;
+  
 }
 
 .DescripcionCV {
@@ -85,7 +88,7 @@ body{
   margin-top: 246px;
 }
 
-.DegradeContenido {
+.DegradeContenido  {
   background-image: linear-gradient(
     to right bottom,
     #667d7f,
@@ -101,6 +104,8 @@ body{
     #9f9b83,
     #9aaa91
   );
+  margin: 0px;
+  padding: 0px;
 }
 ul {
   list-style: none;
