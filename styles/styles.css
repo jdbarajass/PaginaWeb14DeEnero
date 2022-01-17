@@ -460,6 +460,7 @@ ul {
 .imagenReact{
   height: 45px;
   width: 45px;
+  margin:9px;
 }
 .habilidadesimg{
 margin-top:10px;
@@ -476,4 +477,20 @@ margin-top:10px;
 }
 .sepadodesitiosweb{
   margin-top: 8px;
+}
+.unioncolumnas{
+  display: flex;
+}
+.separadodetextotecnologias{
+  display: flex;
+  margin-left: 10px;
+}
+.separadodetextotecnologias2{
+  display: flex;
+  margin-left: 25px;
+}
+.titulosTecnologia{
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
